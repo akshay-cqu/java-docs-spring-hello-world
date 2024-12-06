@@ -14,7 +14,7 @@ public class DemoApplication {
 	}
 
 	@RequestMapping("/")
-	String sayHello() {
-		return String.format("Hello World! \n Student ID: 12237643 \n Student Name: Akshay Benny \n University Campus: Brisbane");
+	String sayHello() {	
+		return String.format("Hello CQUni! <br> Student ID: 12237643 <br> Student Name: Akshay Benny <br> University Campus: Brisbane");
 	}
 }
